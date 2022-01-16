@@ -7,6 +7,8 @@ let userPassword = prompt('Введите пароль')
 userLogin = userLogin.trim()
 userPassword = userPassword.trim()
 
-userLogin === existedUserLogin && userPassword === existedUserPassword 
-? alert(`Добро пожаловать, ${userLogin}!`)
-: alert('Логин и (или) Пароль введены неверно!')
+if (userLogin === existedUserLogin && userPassword === existedUserPassword) {
+    alert(`Добро пожаловать, ${userLogin}!`)
+} else {
+    alert('Логин и (или) Пароль введены неверно!')
+}
