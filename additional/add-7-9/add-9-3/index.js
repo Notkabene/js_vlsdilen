@@ -5,17 +5,15 @@
 let matrixItem = []
 let matrix = []
 for (let i = 0; i < 3; i++) {
-
   matrix.push(matrixItem)
   for (let i = 0; i < 5; i++) {
     matrixItem.push(i+1)
-  }
 
+  }
 }
 
 
-
-// console.log(matrixItem)
+console.log(matrixItem)
 //
 //
 console.log(matrix)
