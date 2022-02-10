@@ -1,4 +1,4 @@
-
+// НЕТ
 const getMathResult = expression => {
   const lengthExpression = expression.length
 
@@ -22,12 +22,10 @@ const getMathResult = expression => {
 
   } else {
 
-    return
-    // console.log(expression.join(''))
   }
 }
 
-console.log(getMathResult(['200', '+', '+', 300]))
+console.log(getMathResult(['200', '+', 300]))
 
 
 

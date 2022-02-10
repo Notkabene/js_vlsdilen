@@ -1,4 +1,4 @@
-// РЕШЕНО
+// https://jsfiddle.net/Notkabene/6shtmc92/4/
 const goals = [8, 1, 1, 3, 2, -1, 5];
 let newGoals = []
 newGoals.concat(goals)

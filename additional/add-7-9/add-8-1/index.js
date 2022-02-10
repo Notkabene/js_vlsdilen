@@ -1,3 +1,4 @@
+// https://jsfiddle.net/Notkabene/6shtmc92/
 let checkQuestionAnswer = (question, correctAnswer) => {
   let answer = prompt(question).trim().toLowerCase()
   correctAnswer = correctAnswer.toLowerCase()
